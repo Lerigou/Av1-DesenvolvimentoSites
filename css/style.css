@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body, html {
+  margin: 0;
+  --pink: #ffbbb2;
+  --dark-pink: #d5958d;
+  --light-coffee: #faead6;
+  --coffee: #814a44;
+  --dark-coffee: #572420;
+  background-color: var(--light-coffee);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+/* Header */
+
+.navbar {
+  font-size: 1.5em;
+  padding: 10px;
+  width: 100vw;
+  height: 5vh;
+  background-color: transparent;
+  background-color: var(--dark-coffee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+}
+
+.navbar a {
+  padding: 10px;
+  color: var(--light-coffee);
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  background-color: var(--light-coffee);
+  color: var(--dark-coffee);
+}
+
+.navbar .img:hover{
+  background-color: transparent;
+}
+
+.navbar h3{
+  font-size: 1.5em;
+  color: var(--light-coffee);
+}
+
+.navbar img {
+  width: 1.5em;
+}
+
+/* Section Header */
+
+.home {
+  height: 95vh;
+}
+
+.home-items {
+  width: 100vw;
+  height: 95vh;
+  color: var(--dark-coffee);
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Parisienne', cursive;
+  /* background: url(../img/bg-coffee.jpg) center; */
+  /* background-size: cover; */
+}
+
+
+/* Section Menu */
+
+#menu {
+  width: 100vw;
+  max-height: fit-content;
+  background-color: #814a44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-coffee);
+}
+
+.menu-items {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 10%;
+}
+
+.menu-items h1 {
+  font-size: 3em;
+  font-family: 'Parisienne', cursive;
+}
+
+.cardapio {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.cardapio .item {
+  border: 1px solid pink;
+  padding: 10px 15px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.cardapio .item .prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardapio label {
+  font-size: 2em !important;
+}
+
+.seeMore {
+  font-size: 1.4em;
+  color: var(--light-coffee);
+  text-decoration: none; 
+  display: flex;
+  align-items: center;
+}
+
+/* Section Location */
+
+#location {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-coffee);
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location h1 {
+  font-size: 4em;
+  font-family: 'Parisienne', cursive;
+}
+
+
+.location .maps {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Footer */
+
+#contact {
+  width: 100vw;
+  height: fit-content;
+  background-color: #814a44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-coffee);
+  font-size: 1.4em;
+}
+
+.contact, .forms {
+  height: 100%;
+  padding: 32px;
+}
+
+.footer-item {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.input {
+  outline: none;
+  width: 40%;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--light-coffee);
+  color: var(--light-coffee);
+  /* border: none; */
+  font-size: 1em;
+}
+
+.input::placeholder{
+  color: #faead6c6;
+}
+
+.comentario, .email {
+  padding: 5px;
+}
+
+.btn {
+  width: 30%;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: var(--light-coffee);
+  color: var(--dark-coffee);
+  border: none;
+  transition: .5s ease;
+}
+
+.btn:hover{
+  background-color: var(--dark-coffee);
+  color: var(--light-coffee);
+}

@@ -1,0 +1,31 @@
+Você, como estudante de desenvolvimento de sites, recebeu uma solicitação de um cliente fictício chamado "Café do Bairro".
+O Café do Bairro é um pequeno estabelecimento localizado em uma comunidade próxima à sua faculdade. 
+O café é conhecido por seu ambiente acolhedor e pela qualidade de seus produtos, como café fresco, bolos caseiros e sanduíches especiais.
+
+O dono do Café do Bairro deseja expandir sua presença online e criar um site simples para divulgar seu estabelecimento, o menu disponível e as informações de contato. 
+A ideia é fornecer aos visitantes uma prévia da experiência aconchegante que podem esperar ao visitar o café.
+
+Requisitos do site:
+
+Página inicial: Crie uma página inicial acolhedora e convidativa que reflita a atmosfera do Café do Bairro. Utilize cores e imagens apropriadas para transmitir a sensação de conforto e aconchego.
+
+Menu: Desenvolva uma página que apresente o menu do café, incluindo uma lista dos itens disponíveis, suas descrições e preços. Certifique-se de destacar as especialidades do café, como o café do dia ou o bolo caseiro mais popular.
+
+Informações de contato: Crie uma página com as informações de contato do café, como endereço, número de telefone e horário de funcionamento. Inclua um mapa (Se não souber como incorporar pode ser uma imagem) que mostre a localização do estabelecimento.
+
+Estilização: Utilize CSS para estilizar o site de acordo com a identidade visual do Café do Bairro. Priorize um design simples e limpo, focando em destacar as informações importantes.
+
+Responsividade: O site deve ser desenvolvido com um layout responsivo, garantindo que seja acessível e legível em dispositivos móveis, como smartphones e tablets.
+
+Interatividade: Adicione interatividade ao site utilizando Javascript. Por exemplo, você pode criar um formulário de contato que valide os campos antes do envio ou implementar um carrossel de imagens destacando os produtos do café.
+
+Para inspiração e referência, você pode consultar os seguintes sites e/ou imagens:
+
+https://www.luccacafesespeciais.com.br/
+https://www.cafestore.com.br/
+http://www.melhorgrao.com.br/mg/menu.html
+https://muffingroup.com/blog/cafe-websites/
+Lembre-se de que a simplicidade e a criatividade são valorizadas na avaliação. Certifique-se de que seu código esteja bem organizado, comentado e siga as melhores práticas de desenvolvimento web.
+
+Ideias:
+Cores: usar cores pasteis
